@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+/*****************/
+/*     GERAL	 */
+/*****************/
+body{
+	background:url(../images/background.jpg) top center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+#wrap_tudo{
+	margin:0 auto;
+	width:960px;
+	min-height:600px;
+	height:auto;
+}
+p{
+	text-indent:1.2em;
+	margin-bottom:10px;
+}
+/*****************/
+/*     CLASSES	 */
+/*****************/
+.clear{
+	clear:both;
+}
+
+/*****************/
+/*     TOPO  	 */
+/*****************/
+#wrap_topo{
+	background:url(../images/background_transparente_topo.png);
+	width:960px;
+	height:180px;
+	float:left;
+	margin:20px 0 20px 0;
+}
+#logotipo{
+	width:235px;
+	height:105px;
+	margin:30px 0 0 25px;
+	float:left;
+}
+	#logotipo h1{
+		font-size:1px;
+		text-indent:-9000px;
+	}
+/*** MENU ***/
+#menu_principal{
+	background:url(../images/menu_background.png) no-repeat;;
+	width:617px;
+	height:110px;
+	float:left;
+	margin:20px 0 0 15px;
+	padding:63px 25px 0 25px;
+}
+#menu_principal li a{
+	float:left;
+	width:150px;
+	height:40px;
+	text-align:center;
+	text-decoration:none;
+	padding:10px 0 0 2px;
+	display:block;
+	color:#666666;
+	font-size:14px;
+}
+#menu_principal li a:hover{
+	background:url(../images/menu_hover.png) bottom no-repeat;;
+
+}
+/*****************/
+/*    CONTEUDO 	 */
+/*****************/
+#conteudo{
+	background:url(../images/conteudo_background.png) top center no-repeat;
+	width:1000px;
+	margin:0 0 0 -60px;
+	padding:40px;
+	height:auto;
+	min-height:600px;
+	float:left;
+}
+/*** FOTOS ***/
+#wrap_fotos{
+	width:920px;
+	height:auto;
+	margin:-30px 0 0 40px;
+	float:left;
+}
+	#wrap_fotos ul li{
+		float:left;
+		margin:0 7px 0 0;
+		display:block;
+	}
+/*****************/
+/*    RODAPE 	 */
+/*****************/
+#rodape{
+	width:920px;
+	float:left;
+	margin:0 0 0 30px;
+	color:#59ab47;
+	font-size:14px;
+}
+.hr_rodape{
+	background:url(../images/hr_rodape.png) no-repeat;
+	width:920px;
+	height:35px;
+	margin:10px 0 0 0;
+	display:block;
+}
+#titulo_rodape{
+	text-transform:uppercase;
+	color:#59ab47;
+	text-align:center;
+	width:920px;
+	height:auto;
+	margin:0 0 5px 0;
+}
+.duas_colunas_rodape{
+	width:450px;
+	height:auto;
+	margin:0 0 0 10px;
+	float:left;	
+}
+#ddd{
+	font-size:22px;
+	color:#59ab47;
+	margin:0 3px 0 0;
+}
+#telefone{
+	font-size:40px;
+	color:#59ab47;
+	margin:0 3px 0 0;
+}
+#endereco{
+	font-size:14px;
+	color:#59ab47;
+	margin:0 0 15px 0;
+}
+.input_rodape{
+	border:1px solid #59ab47;
+	background:transparent;
+	width:300px;
+	margin:3px 0 3px 5px;
+}
+.textarea_rodape{
+	border:1px solid #59ab47;
+	background:transparent;
+	width:297px;
+	margin:-12px 0 3px 5px;
+}
+.btn_enviar{
+	border:none;
+	color:#59ab47;
+	cursor:pointer;
+}
+#desenvolvedor{
+	text-align:center;
+	width:920px;
+	height:auto;
+}
+/*****************/
+/*    PAGINAS	 */
+/*****************/
+/*** EMPRESA ***/
+#box_verde{
+	background:url(../images/slider_background.jpg) no-repeat;
+	width:880px;
+	height:280px;
+	float:left;
+	margin:10px 0 30px 40px;
+	padding:20px;
+	color:white;
+}
+/*** DEPOIMENTOS ***/
+.post_depoimento{
+	background:url(../images/background_gradiente_cinza.jpg) no-repeat;
+	width:820px;
+	height:auto;
+	color:#333;
+	padding:15px;
+	margin:10px 0 0 0;
+	}
+	
+/*** SERVIÇOS ***/
+#box_verde_cinza{
+	background: url(../images/box_verde_cinza.jpg) no-repeat;
+	width:880px;
+	height:280px;
+	float:left;
+	margin:10px 0 30px 40px;
+	padding:10px 20px 20px 20px;
+}
+
+/*** Menu Primário ***/ 
+#primario{
+	background:url(../images/menu_background_simples.png) no-repeat ;
+	width:660px;
+	height:50px;
+	margin:0 0 0 120px;
+	padding:5px 25px 0 25px;	
+}
+#primario li a{
+	float:left;
+	width:152px;
+	height:30px;
+	padding:10px 0 10px 0;
+	text-align:center;
+	text-decoration:none;
+	color: #333;
+}
+#primario li a:hover{
+	background:url(../images/menu_hover_simples.png) bottom no-repeat;
+}
+/*** Menu Secundário ***/ 
+
+#secundario{
+	width:220px;
+	height:210px;
+	float:left;	
+	margin:10px 0 0 0;
+}
+#secundario li a{
+	width:220px;
+	height:20px;
+	margin:3px 0 10px 0;
+	text-align:center;
+	display:block;
+	color:#999;
+	text-decoration:none;
+}
+#secundario li a:hover{
+	color:#090;
+}
+#conteudo_servicos{
+	width:660px;
+	height:220px;
+	margin:10px 0 0 0;
+	float:left;
+}
+#conteudo_servicos img{
+	float:right;
+	margin:10px;
+}
+#conteudo_profissionais{
+	width:870px;
+	height:220px;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#conteudo_profissionais img{
+	float:right;
+	margin:0 10px 10px 10px ;
+}
+/*** Menu Profissionais ***/ 
+#primario_profissionais{
+	background:url(../images/bg_menu_profissionais.png) no-repeat ;
+	width:890px;
+	height:50px;
+	margin:0 0 0 0;
+	padding:5px 10px 0 16px;	
+}
+#primario_profissionais li a{
+	float:left;
+	width:145px;
+	height:30px;
+	padding:10px 0 10px 0;
+	text-align:center;
+	text-decoration:none;
+	color: #333;
+}
+#primario_profissionais li a:hover{
+	background:url(../images/menu_hover_profissionais.png) bottom no-repeat;
+}

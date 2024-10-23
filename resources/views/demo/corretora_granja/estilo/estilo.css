@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+ background:url(../imagens/background.jpg) center;
+}
+#wrap_tudo{
+	margin:0 auto;
+	height:auto;
+	width:960px;
+}
